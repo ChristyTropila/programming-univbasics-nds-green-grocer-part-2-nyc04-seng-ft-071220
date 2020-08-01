@@ -4,6 +4,14 @@ def apply_coupons(cart, coupons)
   # Consult README for inputs and outputs
   #
   # REMEMBER: This method **should** update cart
+  cart.each do |item, grocery_hash|
+    coupons.each do |coupon|
+       binding.pry
+    end
+
+  end
+
+  
 end
 
 def apply_clearance(cart)
